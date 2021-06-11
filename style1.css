@@ -1,0 +1,285 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/*.......Navigation........*/
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.dropdown:hover>.dropdown-menu{
+	
+  	display: block;
+}
+
+.navbar-brand img{
+	height: 40px;
+	padding-left: 30px;
+
+}
+
+.navbar-nav li{
+	padding: 0 10px;
+}
+
+.navbar-nav li{
+	float: right;
+	text-align: left;
+}
+#nav-bar ul li a:hover{
+	color: #007bff !important;
+}
+.nav-bar{
+	background: #fff;
+}
+.navbar-toggler{
+	border:none!important;
+}
+
+.nav-link{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+#slider{
+	width: 100%;
+}
+
+.carousel-caption{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial!important;
+}
+
+.carousel-caption h5{
+	color: #fff;
+	font-size: 42px;
+}
+
+/*.......Aboutsection........*/
+#about{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+
+#about h1::after{
+	content: '';
+	background:#2865c9;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin:20px auto 5px;
+}
+
+.prf{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+
+}
+
+
+#about h1{
+	text-align: center;
+}
+
+#about .btn{
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+}
+.about-content{
+	padding-top: 20px;
+}
+.skills-bar{
+	margin-top: 30px;
+
+}
+.skills-bar p
+{
+	margin: 6px;
+	font-weight: 600;
+}
+
+.progress-bar{
+	border-radius: 16px;
+}
+
+.progress{
+	border-radius: 16px!important;
+	margin-bottom: 20px;
+}
+
+/*.........Servicessection.........*/
+
+#Skills{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/img9.jfif);
+	background-size: cover;
+	background-position: center;
+	color: #efefef!important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#Skills h1::after{
+	content: '';
+	background:#efefef;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin:20px auto 5px;
+}
+
+#Skills h1{
+	text-align: center;
+}
+
+.Skills{
+	margin-top: 40px;
+}
+.icon{
+	font-size: 40px;
+	margin:20px auto;
+	padding: 20px;
+	height: 80px;
+	width: 80px;
+	border:1px solid #fff;
+	border-radius: 50%;
+}
+#Skills p{
+	font-size: 14px;
+	margin-top: 20px;
+	color: #ccc;
+
+}
+.Skills .col-md-3:hover{
+	background:#5b687d;
+	cursor: pointer;
+	transition: 0.7s; 
+}
+/*Testimonial*/
+#testimonials{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+
+}
+#testimonials h1::after{
+	content: '';
+	background:#2865c9;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin:20px auto 5px;
+}
+.user{
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+}
+
+.profile img{
+	top: -60px;
+	position: absolute;
+	left: calc(50% - 60px);
+	border:1px solid #fff;
+}
+
+#testimonials .row{
+	margin-top: 30px;
+
+}
+.col-md-4{
+	margin: 40px auto;
+}
+.profile{
+	padding: 70px 10px 10px;
+	background:#efefef; 
+}
+
+.profile h3{
+	font-size: 20px;
+	color: #007bff;
+	margin-top: 15px;
+}
+
+blockquote{
+	font-size: 16px;
+	line-height: 30px;
+
+}
+blockquote::before{
+	content: '\93';
+	font-size: 50px;
+	color: #007bff;
+	position: relative;
+	line-height: 20px;
+	bottom: -15px;
+	right: 5px;
+}
+
+blockquote::after{
+	content: '\94';
+	font-size: 50px;
+	color: #007bff;
+	position: relative;
+	line-height: 10px;
+	bottom: -15px;
+	left: 5px;
+}
+.profile:hover{
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+	cursor: pointer;
+	transition: 0.5s;
+
+}
+
+/*..........contactsection..........*/
+#contact{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/img10.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #efefef!important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+
+}
+#contact h1::after{
+	content: '';
+	background:#efefef;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin:20px auto 5px;
+}
+
+.contact-form{
+	padding: 15px;
+}
+::placeholder{
+	color: #fff;
+}
+
+.contact-info .fa{
+	margin: 10px;
+	font-weight: bold;
+	color: #007bff;
+}
+
+/*..........Footer.......*/
+#footer{
+	background-color: #3d4352;
+	padding: 10px 5px;
+}
+#footer p{
+	color: #fff;
+}
+
